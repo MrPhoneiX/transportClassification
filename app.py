@@ -19,7 +19,7 @@ if file:
     img = PILImage.create(file)
 
     # model
-    fname = '/Users/dartikov/Documents/Projects/DataScient_AI/transports/transport_model.pkl'
+    fname = 'transport_model.pkl'
     model = load_learner(fname)
 
     #predict
